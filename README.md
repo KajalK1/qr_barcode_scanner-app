@@ -23,6 +23,7 @@ Cross-Platform Compatibility: Works on Windows, macOS, and Linux.
 **Installation** :
 
 Install dependencies: 
+
   1.pip install opencv-python 
   2.pyzbar 
   3.pillow.
