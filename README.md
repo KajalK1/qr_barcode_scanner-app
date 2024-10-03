@@ -2,9 +2,11 @@
 A Python application using Tkinter for scanning QR codes and barcodes in real-time. This user-friendly tool utilizes opencv-python and pyzbar to decode various barcode formats using your webcam. Easily installable and cross-platform, it's perfect for quick scanning tasks.
 
 **License**
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 **Features**
+
 Real-time Scanning: Instantly scan QR codes and barcodes with live camera input.
 Multi-format Support: Decodes a variety of formats, including QR codes, UPC, and EAN.
 User-Friendly Interface: Clean and easy-to-use GUI developed with Tkinter.
@@ -21,11 +23,12 @@ Cross-Platform Compatibility: Works on Windows, macOS, and Linux.
 
 
 **Installation** :
-
 Install dependencies: 
 
   1.pip install opencv-python 
+  
   2.pyzbar 
+  
   3.pillow.
 
 
