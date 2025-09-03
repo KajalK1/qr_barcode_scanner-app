@@ -37,7 +37,7 @@ It decodes the data, displays the result, and opens links directly in your defau
 
 4. **Run the app**
     ```bash
-   python qr_scanner.py
+   python qr_barcode_scan.py
 
 
 ![Screenshot 2024-10-03 095506](https://github.com/user-attachments/assets/5b7430a3-bae0-442a-a750-5ed58046dbc3)
