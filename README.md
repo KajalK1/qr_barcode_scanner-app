@@ -1,16 +1,41 @@
-# qr_barcode_scanner-app
-A Python application using Tkinter for scanning QR codes and barcodes in real-time. This user-friendly tool utilizes opencv-python and pyzbar to decode various barcode formats using your webcam. Easily installable and cross-platform, it's perfect for quick scanning tasks.
+# 📷 QR & Barcode Scanner App
 
-**License**
+A simple **Python Tkinter desktop application** that scans QR codes and barcodes from images.  
+It decodes the data, displays the result, and opens links directly in your default web browser.  
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
 
-**Features**
+## ✨ Features
+- 📂 Select an image containing QR/Barcode  
+- 🔍 Detect and decode multiple QR codes & barcodes  
+- 🌐 Automatically open URLs in browser if found  
+- 🟩 Highlights detected QR/Barcode with a green rectangle  
+- 🖼️ Preview scanned image inside the app  
 
-Real-time Scanning: Instantly scan QR codes and barcodes with live camera input.
-Multi-format Support: Decodes a variety of formats, including QR codes, UPC, and EAN.
-User-Friendly Interface: Clean and easy-to-use GUI developed with Tkinter.
-Cross-Platform Compatibility: Works on Windows, macOS, and Linux.
+---
+
+## 🛠️ Tech Stack
+- **Language**: Python 3.10+  
+- **Libraries**:
+  - [tkinter](https://docs.python.org/3/library/tkinter.html) – GUI framework  
+  - [Pillow](https://pillow.readthedocs.io/en/stable/) – image processing  
+  - [pyzbar](https://pypi.org/project/pyzbar/) – barcode & QR code decoding  
+
+---
+
+## ⚡ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/KajalK1/qr_barcode_scanner-app.git
+   cd qr_barcode_scanner-app
+   (Optional) Create virtual environment
+   
+2. **Install dependencies**
+   pip install -r requirements.txt
+
+3. **Run the app**
+   python qr_scanner.py
 
 
 ![Screenshot 2024-10-03 095506](https://github.com/user-attachments/assets/5b7430a3-bae0-442a-a750-5ed58046dbc3)
@@ -20,16 +45,6 @@ Cross-Platform Compatibility: Works on Windows, macOS, and Linux.
 
 ![Screenshot 2024-10-03 095438](https://github.com/user-attachments/assets/22d004b9-2a27-4bae-ac2d-f4afc0d68f22)
 
-
-
-**Installation** :
-Install dependencies: 
-
-  1.pip install opencv-python 
-  
-  2.pyzbar 
-  
-  3.pillow.
 
 
 Contributions are welcome! If you have suggestions or improvements, feel free to open issues or submit pull requests. Please adhere to the project's coding standards.
