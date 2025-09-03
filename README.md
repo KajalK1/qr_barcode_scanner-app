@@ -32,18 +32,22 @@ It decodes the data, displays the result, and opens links directly in your defau
    (Optional) Create virtual environment
    
 2. **Install dependencies**
+    ```bash
    pip install -r requirements.txt
 
-3. **Run the app**
+4. **Run the app**
+    ```bash
    python qr_scanner.py
 
 
 ![Screenshot 2024-10-03 095506](https://github.com/user-attachments/assets/5b7430a3-bae0-442a-a750-5ed58046dbc3)
 
 
+
 **Output** :
 
 ![Screenshot 2024-10-03 095438](https://github.com/user-attachments/assets/22d004b9-2a27-4bae-ac2d-f4afc0d68f22)
+
 
 
 
